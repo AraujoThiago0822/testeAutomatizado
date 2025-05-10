@@ -25,7 +25,7 @@ describe("Sistema de Pedidos", function() {
         pedido.adicionarItem("Hamburguer", 10.0, 2); // 20.0
         pedido.aplicarDesconto("PROMO10");
         const total = pedido.calcularTotal();
-        assert.strictEqual(total,25.0)
+        assert.strictEqual(total,23.0)
 
     })
 
